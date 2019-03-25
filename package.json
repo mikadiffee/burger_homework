@@ -1,0 +1,28 @@
+{
+  "name": "burger_homework",
+  "version": "1.0.0",
+  "description": "ORM homework",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "handlebars": "^4.1.1",
+    "init": "^0.1.2",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikadiffee/burger_homework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikadiffee/burger_homework/issues"
+  },
+  "homepage": "https://github.com/mikadiffee/burger_homework#readme"
+}

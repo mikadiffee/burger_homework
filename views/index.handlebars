@@ -1,0 +1,17 @@
+<div id ="headerSection">
+  <h2>Eat Da Burger</h2>
+</div>
+
+<!-- Middle Section -->
+<div id="middleSection">
+
+  <!-- Left  -->
+  <div class="leftMiddle">
+    <div class="uneaten center">
+      {{#each burger}}
+        {{#unless devoured}}
+          {{> burgers/burgerBlock devoured=1}}
+        {{/unless}}
+      {{/each}}
+    </div>
+  </div>
